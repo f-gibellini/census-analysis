@@ -5,3 +5,4 @@ data/*
 *.tsv
 catboost_training.json
 *.tfevents
+*.tmp
