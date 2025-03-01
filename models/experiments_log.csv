@@ -1,0 +1,41 @@
+expriment_name,f1-score,precision,recall,conf_matrix
+"baselines_LogisticRegression(C=1.0,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=200,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=None,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.3673189152076896,0.8756137479541735,0.232406602953953,"[[15197   152]
+ [ 3534  1070]]"
+"baselines_LogisticRegression(C=1.0,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=500,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=None,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.3863072011351543,0.8911620294599017,0.2466032608695652,"[[15404   133]
+ [ 3327  1089]]"
+"baselines_LogisticRegression(C=1.0,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=None,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.3998505231689088,0.8756137479541735,0.2590799031476997,"[[15671   152]
+ [ 3060  1070]]"
+"baselines_LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=200,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=None,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.3467007509186771,0.8878887070376432,0.2154059956323208,"[[14779   137]
+ [ 3952  1085]]"
+"baselines_LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=500,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=None,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.3863717445594006,0.886252045826514,0.2470346715328467,"[[15430   139]
+ [ 3301  1083]]"
+"baselines_LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=None,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.3962609970674486,0.8846153846153846,0.2553141237600378,"[[15578   141]
+ [ 3153  1081]]"
+"baselines_DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=4,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=None,splitter=best)",0.3411381609551868,0.900163666121113,0.2104457623876028,"[[14604   122]
+ [ 4127  1100]]"
+"baselines_DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=7,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=None,splitter=best)",0.4104716227018385,0.8404255319148937,0.2715494447382337,"[[15976   195]
+ [ 2755  1027]]"
+"baselines_DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=10,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=None,splitter=best)",0.4115354637568199,0.8641571194762684,0.270076726342711,"[[15877   166]
+ [ 2854  1056]]"
+"baselines_DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=None,splitter=best)",0.4174265450861195,0.8428805237315876,0.2774037166711554,"[[16048   192]
+ [ 2683  1030]]"
+"baselines_RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=500,n_jobs=6,oob_score=False,random_state=None,verbose=0,warm_start=False)",0.2136200716845878,0.1219312602291325,0.861271676300578,"[[18707  1073]
+ [   24   149]]"
+"baselines_RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1000,n_jobs=6,oob_score=False,random_state=None,verbose=0,warm_start=False)",0.2050541516245487,0.11620294599018,0.8711656441717791,"[[18710  1080]
+ [   21   142]]"
+"baselines_RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=None,verbose=0,warm_start=False)",0.2203269367448471,0.1268412438625204,0.8378378378378378,"[[18701  1067]
+ [   30   155]]"
+"baselines_RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=6,max_features=sqrt,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=500,n_jobs=6,oob_score=False,random_state=None,verbose=0,warm_start=False)",0.0081499592502037,0.0040916530278232,1.0,"[[18731  1217]
+ [    0     5]]"
+"baselines_RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=6,max_features=sqrt,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1000,n_jobs=6,oob_score=False,random_state=None,verbose=0,warm_start=False)",0.019448946515397,0.0098199672667757,1.0,"[[18731  1210]
+ [    0    12]]"
+"baselines_RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=6,max_features=sqrt,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=None,verbose=0,warm_start=False)",0.019448946515397,0.0098199672667757,1.0,"[[18731  1210]
+ [    0    12]]"
+"baselines_CatBoostClassifier(iterations=500,task_type=GPU)",0.5784868759650026,0.4599018003273322,0.7794729542302358,"[[18572   660]
+ [  159   562]]"
+"baselines_CatBoostClassifier(iterations=1000,task_type=GPU)",0.5826932923707118,0.4656301145662848,0.7783857729138167,"[[18569   653]
+ [  162   569]]"
+"baselines_CatBoostClassifier(iterations=1500,task_type=GPU)",0.5811088295687885,0.4631751227495908,0.7796143250688705,"[[18571   656]
+ [  160   566]]"
+"baselines_CatBoostClassifier(iterations=2000,task_type=GPU)",0.5806122448979592,0.4656301145662848,0.7710027100271003,"[[18562   653]
+ [  169   569]]"
