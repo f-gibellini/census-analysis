@@ -11,7 +11,8 @@ class FeaturesProcessor():
                  marital_status_mapping = {
                     'widowed':0, 'divorced':0, 'never married':0, 'separated':0, 'married-spouse absent':0,
                     'married-civilian spouse present':1, 'married-a f spouse present':1 },
-                 working_h_per_week = 40
+                 working_h_per_week = 40,
+                 scaling_values = {}
                 ):
 
         self.cat_encoding = cat_encoding
@@ -21,6 +22,7 @@ class FeaturesProcessor():
         self.investment_buckets = investment_buckets
         self.marital_status_mapping = marital_status_mapping
         self.working_h_per_week = working_h_per_week
+        self.scaling_values = scaling_values
 
 
     def _make_encoder(self, df, col):
@@ -67,13 +69,19 @@ class FeaturesProcessor():
         
         return df
     
-    def transform_features(self, df, make_calculated = False):
+    def transform_features(self, df, make_calculated = False, scale = True):
 
         mode = self.cat_encoding
 
         #if want to make calculated features
         if make_calculated:
             df = self.make_calculated_features(df)
+
+        if scale:
+            print('Scaling Numerical Features')
+            if  len(self.scaling_values) < 1:
+                print('Missing max values to scale in 0..1 range, will calculate from current data')
+
         
         if mode not in ['OHE', 'LE']:
             print(f'Unsupported mode {mode} defaulting to One Hot Encoding')
@@ -105,7 +113,12 @@ class FeaturesProcessor():
                 encoded_df = pd.concat([encoded_df,
                                         pd.DataFrame(encoded_features, columns=feat_names)], axis=1)
             elif (df[col].dtype != 'O') and (col != TARGET_NAME):
-                encoded_df[col] = df[col]
+                if scale:
+                    if not (col in self.scaling_values.keys()):
+                        self.scaling_values[col] = df[col].max()
+                    
+                    encoded_df[col] = df[col].clip(0,self.scaling_values[col]) /self.scaling_values[col]
+                    
             
             else: #target column
                 encoder = LabelEncoder()

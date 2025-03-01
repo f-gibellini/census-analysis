@@ -19,17 +19,17 @@ def get_model_string(model):
     param_str = ",".join(f"{k}={v}" for k, v in params.items())
     return f"{model_name}({param_str})"
 
-def log_model(exp_name, fname, metrics, col_names = ['expriment_name', 'f1-score', 'precision', 'recall', 'conf_matrix']):
+def log_model(exp_name, model_name, fname, metrics, col_names = ['experiment_name', 'model_name', 'f1_score', 'precision', 'recall', 'conf_matrix']):
 
     #if log file exists, append
     if os.path.isfile(fname):
         existing_logs = pd.read_csv(fname)
         pd.concat([existing_logs,
-                  pd.DataFrame([[exp_name, *metrics]], columns = existing_logs.columns)]).to_csv(fname, index = False)
+                  pd.DataFrame([[exp_name, model_name, *metrics]], columns = existing_logs.columns)]).to_csv(fname, index = False)
 
     #log file doesnt exist yet
     else:
-        pd.DataFrame([[exp_name, *metrics]], columns = col_names).to_csv(fname, index = False)
+        pd.DataFrame([[exp_name, model_name, *metrics]], columns = col_names).to_csv(fname, index = False)
 
 
 
