@@ -1,3 +1,7 @@
 data/*
 *.pyc
 *-checkpoint.*
+*.pkl
+*.tsv
+catboost_training.json
+*.tfevents

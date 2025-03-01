@@ -5,3 +5,4 @@ catboost==1.2.7
 scikit-learn==1.6.1
 scipy==1.11.4
 optuna==4.2.1
+seaborn==0.13.2

@@ -83,7 +83,8 @@ def map_columns(df, columns_map):
 
 def read_data(fname, 
               metadata_fname,
-              target_name = 'income'):
+              target_name = 'income',
+              drop_cols = []):
 
     if os.path.isfile(fname):        
         df = pd.read_csv(fname,
@@ -119,5 +120,9 @@ def read_data(fname,
                                                                             )) else (x))
     
     df.columns = [col.replace(' ', '_') for col in df.columns]
+
+    if len(drop_cols) > 0:
+        df = df.drop(drop_cols, axis = 1, errors = 'ignore')
+    
     
     return df
