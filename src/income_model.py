@@ -8,6 +8,7 @@ from catboost import CatBoostClassifier
 import warnings
 from sklearn.metrics import classification_report
 import os
+from pickle import dump, load
 
 warnings.filterwarnings('ignore')
 
@@ -114,28 +115,21 @@ class IncomeModel():
             if not (save_path is None):
                 if os.path.isdir(save_path):
                     plt.savefig(save_path + 'feat_importances.png')
-
+                    print(f'\nImportances plot saved to {save_path}/feat_importances.png')
 
             plt.show()
 
         else:
-            print('Cannot produce importances of a un-trained model, please fit model first')
+            print('\nCannot produce importances of a un-trained model, please fit model first')
 
+    def save_to_pickle(self, path, fname = 'trained_model.pkl'):
+        
+        #make sure folder exists
+        if not os.path.isdir(path):
+            os.mkdirs(path)
+        
+        #write model to file
+        with open(path + fname, 'wb') as f:
+            dump(self, f)
 
-
-if __name__ == '__main__':
-
-    model = IncomeModel(model = CatBoostClassifier, 
-                    hparams = {**BEST_HP, 'silent' : True, 'task_type' : 'GPU' if GPU else 'CPU', 'iterations': 100},
-                    metadata_filename = DATA_PATH + METADATA_FNAME,
-                    target_name = TARGET_NAME,
-                    ignore_features = IGNORE_FEATURES,
-                    features_processor = None, 
-                    make_calculated_feats = True)
-
-    model.fit_from_file(DATA_PATH + TRAIN_FNAME)
-
-    model.evaluate_from_file(DATA_PATH + TEST_FNAME)
-
-    #model.plot_importances(save_path = '../docs/')
-
+        print(f'\nModel Saved to Pickle file {path + fname}')
