@@ -6,7 +6,7 @@ import optuna
 import numpy as np
 from catboost import CatBoostClassifier
 from sklearn.model_selection import cross_val_score, StratifiedKFold
-from src.config import *
+from config import *
 
 def evaluate_model(y_true, y_pred):
 

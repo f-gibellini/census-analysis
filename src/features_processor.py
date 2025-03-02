@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder,LabelEncoder
-from src.constants import *
+from config import *
 
 class FeaturesProcessor():
 
