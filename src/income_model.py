@@ -40,6 +40,10 @@ class IncomeModel():
 
         df = read_data(filename, self.metadata_filename, drop_cols = self.ignore_features)
 
+        if len(df) < 1:
+            print('Data not read successfully, exiting')
+            return pd.DataFrame([])
+
         df, _ = self.features_processor.transform_features(df, make_calculated = self.make_calculated_feats)
 
         return df
@@ -48,6 +52,10 @@ class IncomeModel():
     def fit_from_file(self, filename):
 
         encoded_train_df = self.make_features_from_file(filename)
+
+        if len(encoded_train_df) < 1:
+            print('Cannot train model\n')
+            return self
 
         self.feat_names = [col for col in encoded_train_df.columns if (col != self.target_name)]
         
@@ -60,6 +68,10 @@ class IncomeModel():
     def evaluate_from_file(self, filename):
 
         encoded_test_df = self.make_features_from_file(filename)
+        
+        if len(encoded_test_df) < 1:
+            print('Cannot evaluate model\n')
+            return self
 
         if len(self.feat_names) < 1:
             self.feat_names = [col for col in encoded_test_df.columns if (col != self.target_name)]

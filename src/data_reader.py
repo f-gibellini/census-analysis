@@ -91,7 +91,7 @@ def read_data(fname,
                       names = [f'col_{i}' for i in range(42)])
     else:
         print('CSV File not Found')
-        return -1
+        return pd.DataFrame([])
 
     print('Read input data file', fname)
     #make sure all strings are lowercase and stripped

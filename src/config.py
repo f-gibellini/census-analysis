@@ -11,8 +11,8 @@ COLORS = ['#4DC9C3', '#221C35', '#FCCD20', '#20C3EF', '#00B257', '#FF7700'] #col
 TARGET_NAME = 'income'  #column to predict
 IGNORE_FEATURES = ['instance_weight'] #feature to ignore as of instructions
 
-N_JOBS = 6 #number of parallel jobs for training
-GPU = True #whether to use GPU for training
+N_JOBS = 2 #number of parallel jobs for training
+GPU = False #whether to use GPU for training
 
 #best hyper parameters found in experiments, rounded
 BEST_HP = {'learning_rate': 0.123, 'depth': 4, 'l2_leaf_reg': 0.95, 'iterations': 2480}
