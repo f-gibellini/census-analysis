@@ -2,7 +2,9 @@
 
 - Notebooks are found in jnb folder
 - Code is found in src folder
-- Documentation and slides in docs folder
+- Documentation in docs folder
+- Models are found in models folder
+- Data can be placed in data folder
 
 In order to run the code it is reccommended to install the requirements in requirements.txt file.
 
@@ -14,6 +16,3 @@ In order to run the jupyter notebooks it might be necessary to change the PATH v
 A new model can be trained on the provided train dataset by executing src/main.py.
 Doing so will also test the obtained model against the test set.
 The obtained model will be automatically saved in ./models folder
-
-
-Presentation slides can be found in docs in the census_analysis_slides.pptx file
