@@ -19,89 +19,87 @@ baselines,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=
  [ 2915  1056]]"
 baselines,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.413490321293155,0.8477905073649754,0.2734230667722354,"[[15978   186]
  [ 2753  1036]]"
-baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.2023121387283237,0.1145662847790507,0.8641975308641975,"[[18709  1082]
- [   22   140]]"
-baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1000,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.2011577424023155,0.113747954173486,0.86875,"[[18710  1083]
- [   21   139]]"
-baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.2021660649819494,0.1145662847790507,0.8588957055214724,"[[18708  1082]
- [   23   140]]"
-baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=6,max_features=sqrt,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.019448946515397,0.0098199672667757,1.0,"[[18731  1210]
- [    0    12]]"
-baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=6,max_features=sqrt,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1000,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.0210526315789473,0.0106382978723404,1.0,"[[18731  1209]
- [    0    13]]"
-baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=6,max_features=sqrt,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.0178426601784266,0.0090016366612111,1.0,"[[18731  1211]
- [    0    11]]"
+baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.3348498635122839,0.9034369885433716,0.2055100521221146,"[[14463   118]
+ [ 4268  1104]]"
+baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1000,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.3330316742081448,0.9034369885433716,0.2041420118343195,"[[14427   118]
+ [ 4304  1104]]"
+baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.3341375150784077,0.9067103109656302,0.2048059149722735,"[[14429   114]
+ [ 4302  1108]]"
+baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=6,max_features=sqrt,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.3199771852274348,0.9181669394435352,0.1937489207390778,"[[14062   100]
+ [ 4669  1122]]"
+baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=6,max_features=sqrt,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1000,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.3223580158159597,0.9173486088379704,0.1955346241060526,"[[14119   101]
+ [ 4612  1121]]"
+baselines,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=6,max_features=sqrt,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.3233723112458496,0.9165302782324058,0.1963190184049079,"[[14146   102]
+ [ 4585  1120]]"
 baselines,"CatBoostClassifier(iterations=500,silent=True,task_type=GPU,random_state=32)",0.5828220858895705,0.4664484451718494,0.776566757493188,"[[18567   652]
  [  164   570]]"
 baselines,"CatBoostClassifier(iterations=1000,silent=True,task_type=GPU,random_state=32)",0.5790281329923274,0.4631751227495908,0.772169167803547,"[[18564   656]
  [  167   566]]"
-baselines,"CatBoostClassifier(iterations=1500,silent=True,task_type=GPU,random_state=32)",0.5839714139867279,0.4680851063829787,0.7761194029850746,"[[18566   650]
- [  165   572]]"
+baselines,"CatBoostClassifier(iterations=1500,silent=True,task_type=GPU,random_state=32)",0.5833758286588475,0.4680851063829787,0.774018944519621,"[[18564   650]
+ [  167   572]]"
 baselines,"CatBoostClassifier(iterations=2000,silent=True,task_type=GPU,random_state=32)",0.581799591002045,0.4656301145662848,0.7752043596730245,"[[18566   653]
  [  165   569]]"
-feats_eng,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.4330739299610895,0.8918269230769231,0.2859712230215827,"[[15926   135]
- [ 2779  1113]]"
+feats_eng,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=2,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.4329576369996114,0.8926282051282052,0.2857875833760903,"[[15921   134]
+ [ 2784  1114]]"
 feats_eng,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.4311475409836066,0.842948717948718,0.289647577092511,"[[16125   196]
  [ 2580  1052]]"
-feats_eng,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.2443686006825938,0.1434294871794871,0.8248847926267281,"[[18667  1069]
- [   38   179]]"
-feats_eng,"CatBoostClassifier(iterations=1000,silent=True,task_type=GPU,random_state=32)",0.5780862667327714,0.4671474358974359,0.7581274382314694,"[[18519   665]
- [  186   583]]"
-feats_sel_top300,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.4334630350194552,0.8926282051282052,0.2862281603288797,"[[15927   134]
- [ 2778  1114]]"
-feats_sel_top300,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.4273504273504273,0.8413461538461539,0.2864157119476268,"[[16089   198]
- [ 2616  1050]]"
-feats_sel_top300,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.244535519125683,0.1434294871794871,0.8287037037037037,"[[18668  1069]
- [   37   179]]"
-feats_sel_top300,"CatBoostClassifier(iterations=1000,silent=True,task_type=GPU,random_state=32)",0.5770946950917204,0.4663461538461538,0.7568270481144344,"[[18518   666]
- [  187   582]]"
-feats_sel_top200,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.4288999616711383,0.8966346153846154,0.2818639798488665,"[[15854   129]
- [ 2851  1119]]"
-feats_sel_top200,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.4230459307010475,0.8413461538461539,0.282561894510226,"[[16039   198]
- [ 2666  1050]]"
-feats_sel_top200,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.2280580511402902,0.1322115384615384,0.8291457286432161,"[[18671  1083]
- [   34   165]]"
-feats_sel_top200,"CatBoostClassifier(iterations=1000,silent=True,task_type=GPU,random_state=32)",0.5747241725175527,0.4591346153846153,0.7680965147453083,"[[18532   675]
- [  173   573]]"
-feats_sel_top100,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.4096744186046511,0.8822115384615384,0.266779743154834,"[[15679   147]
- [ 3026  1101]]"
-feats_sel_top100,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.3910512913786831,0.8613782051282052,0.2529411764705882,"[[15530   173]
- [ 3175  1075]]"
-feats_sel_top100,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.2307157748436414,0.1330128205128205,0.8691099476439791,"[[18680  1082]
- [   25   166]]"
-feats_sel_top100,"CatBoostClassifier(iterations=1000,silent=True,task_type=GPU,random_state=32)",0.5485017775520569,0.4326923076923077,0.7489597780859917,"[[18524   708]
- [  181   540]]"
-feats_sel_top60,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.3701377987092273,0.8501602564102564,0.2365663322185061,"[[15281   187]
- [ 3424  1061]]"
-feats_sel_top60,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.3624740843123704,0.8405448717948718,0.2310572687224669,"[[15214   199]
- [ 3491  1049]]"
-feats_sel_top60,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.0,0.0,0.0,"[[18705  1248]
- [    0     0]]"
-feats_sel_top60,"CatBoostClassifier(iterations=1000,silent=True,task_type=GPU,random_state=32)",0.3984418475236505,0.2868589743589743,0.6520947176684881,"[[18514   890]
- [  191   358]]"
-feats_sel_top30,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.2687991021324354,0.7676282051282052,0.1629251700680272,"[[13783   290]
- [ 4922   958]]"
-feats_sel_top30,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.3619473593669361,0.842948717948718,0.2304490690032858,"[[15192   196]
- [ 3513  1052]]"
-feats_sel_top30,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.0,0.0,0.0,"[[18705  1248]
- [    0     0]]"
-feats_sel_top30,"CatBoostClassifier(iterations=1000,silent=True,task_type=GPU,random_state=32)",0.3946784922394678,0.2852564102564102,0.6402877697841727,"[[18505   892]
- [  200   356]]"
-feats_sel_top20,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.2555812163202463,0.7980769230769231,0.152153987167736,"[[13155   252]
- [ 5550   996]]"
-feats_sel_top20,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.3640743289745354,0.8477564102564102,0.2318141980718668,"[[15199   190]
- [ 3506  1058]]"
-feats_sel_top20,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.0,0.0,0.0,"[[18705  1248]
- [    0     0]]"
-feats_sel_top20,"CatBoostClassifier(iterations=1000,silent=True,task_type=GPU,random_state=32)",0.3678290213723285,0.2620192307692308,0.6169811320754717,"[[18502   921]
- [  203   327]]"
-feats_sel_top10,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=6,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.1883327734856119,0.6738782051282052,0.1094624495639724,"[[11863   407]
- [ 6842   841]]"
-feats_sel_top10,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.3732355637030247,0.8157051282051282,0.2419776562871405,"[[15516   230]
- [ 3189  1018]]"
-feats_sel_top10,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=None,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=6,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.0,0.0,0.0,"[[18705  1248]
- [    0     0]]"
-feats_sel_top10,"CatBoostClassifier(iterations=1000,silent=True,task_type=GPU,random_state=32)",0.2111716621253406,0.1241987179487179,0.7045454545454546,"[[18640  1093]
- [   65   155]]"
-hp_tune,"CatBoostClassifier(iterations=2486,learning_rate=0.12287358017398776,depth=4,l2_leaf_reg=0.95198171385157,silent=True,task_type=GPU,random_state=32)",0.6028985507246377,0.5,0.7591240875912408,"[[18507   624]
- [  198   624]]"
+feats_eng,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=2,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.3360929557007988,0.9270833333333334,0.2052510200461238,"[[14225    91]
+ [ 4480  1157]]"
+feats_eng,"CatBoostClassifier(iterations=1000,silent=True,task_type=CPU,random_state=32)",0.602990834539315,0.500801282051282,0.7575757575757576,"[[18505   623]
+ [  200   625]]"
+feats_sel_top300,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=2,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.4324849426850592,0.8918269230769231,0.2854578096947935,"[[15919   135]
+ [ 2786  1113]]"
+feats_sel_top300,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.4303849303849303,0.8421474358974359,0.289053905390539,"[[16120   197]
+ [ 2585  1051]]"
+feats_sel_top300,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=2,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.3344394748232578,0.9286858974358976,0.2039415801513285,"[[14181    89]
+ [ 4524  1159]]"
+feats_sel_top300,"CatBoostClassifier(iterations=1000,silent=True,task_type=CPU,random_state=32)",0.6048967834853577,0.5048076923076923,0.7544910179640718,"[[18500   618]
+ [  205   630]]"
+feats_sel_top200,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=2,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.4271366306613606,0.9030448717948718,0.2797220153884338,"[[15803   121]
+ [ 2902  1127]]"
+feats_sel_top200,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.4176786780808282,0.8405448717948718,0.2778807947019867,"[[15979   199]
+ [ 2726  1049]]"
+feats_sel_top200,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=2,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.330833573694837,0.9190705128205128,0.2017235314808301,"[[14166   101]
+ [ 4539  1147]]"
+feats_sel_top200,"CatBoostClassifier(iterations=1000,silent=True,task_type=CPU,random_state=32)",0.55599603567889,0.4495192307692308,0.7285714285714285,"[[18496   687]
+ [  209   561]]"
+feats_sel_top100,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=2,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.3779229711141678,0.8806089743589743,0.2405866900175131,"[[15236   149]
+ [ 3469  1099]]"
+feats_sel_top100,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.3791298068243365,0.8413461538461539,0.2446982055464926,"[[15464   198]
+ [ 3241  1050]]"
+feats_sel_top100,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=2,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.326039704390668,0.9014423076923076,0.1990093755528038,"[[14177   123]
+ [ 4528  1125]]"
+feats_sel_top100,"CatBoostClassifier(iterations=1000,silent=True,task_type=CPU,random_state=32)",0.5069551777434312,0.3942307692307692,0.70995670995671,"[[18504   756]
+ [  201   492]]"
+feats_sel_top60,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=2,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.3550819672131147,0.8677884615384616,0.2232069249793899,"[[14936   165]
+ [ 3769  1083]]"
+feats_sel_top60,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.3656741385078622,0.875801282051282,0.2310782241014799,"[[15068   155]
+ [ 3637  1093]]"
+feats_sel_top60,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=2,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.3189072609633357,0.8886217948717948,0.1943227615209392,"[[14107   139]
+ [ 4598  1109]]"
+feats_sel_top60,"CatBoostClassifier(iterations=1000,silent=True,task_type=CPU,random_state=32)",0.4355179704016913,0.3301282051282051,0.639751552795031,"[[18473   836]
+ [  232   412]]"
+feats_sel_top30,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=2,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.3157894736842105,0.84375,0.1942446043165467,"[[14337   195]
+ [ 4368  1053]]"
+feats_sel_top30,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.3595467032967033,0.8389423076923077,0.2288024475524475,"[[15176   201]
+ [ 3529  1047]]"
+feats_sel_top30,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=2,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.2676358436606291,0.8998397435897436,0.1571948488241881,"[[12684   125]
+ [ 6021  1123]]"
+feats_sel_top30,"CatBoostClassifier(iterations=1000,silent=True,task_type=CPU,random_state=32)",0.3575615474794841,0.2443910256410256,0.665938864628821,"[[18552   943]
+ [  153   305]]"
+feats_sel_top20,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=2,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.3168347082187595,0.8309294871794872,0.1957342393355983,"[[14444   211]
+ [ 4261  1037]]"
+feats_sel_top20,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.3543871628542164,0.8317307692307693,0.2251626898047722,"[[15133   210]
+ [ 3572  1038]]"
+feats_sel_top20,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=2,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.2576325048235161,0.9094551282051282,0.1500727224646304,"[[12277   113]
+ [ 6428  1135]]"
+feats_sel_top20,"CatBoostClassifier(iterations=1000,silent=True,task_type=CPU,random_state=32)",0.3563892145369285,0.2435897435897435,0.6637554585152838,"[[18551   944]
+ [  154   304]]"
+feats_sel_top10,"LogisticRegression(C=0.1,class_weight=balanced,dual=False,fit_intercept=True,intercept_scaling=1,l1_ratio=None,max_iter=1000,multi_class=deprecated,n_jobs=2,penalty=l2,random_state=32,solver=lbfgs,tol=0.0001,verbose=0,warm_start=False)",0.1937382297551789,0.6594551282051282,0.1135485651214128,"[[12280   425]
+ [ 6425   823]]"
+feats_sel_top10,"DecisionTreeClassifier(ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=13,max_features=None,max_leaf_nodes=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,random_state=32,splitter=best)",0.3640888888888889,0.8205128205128205,0.2339501941969385,"[[15352   224]
+ [ 3353  1024]]"
+feats_sel_top10,"RandomForestClassifier(bootstrap=True,ccp_alpha=0.0,class_weight=balanced,criterion=gini,max_depth=3,max_features=0.3,max_leaf_nodes=None,max_samples=None,min_impurity_decrease=0.0,min_samples_leaf=1,min_samples_split=2,min_weight_fraction_leaf=0.0,monotonic_cst=None,n_estimators=1500,n_jobs=2,oob_score=False,random_state=32,verbose=0,warm_start=False)",0.2580059050647286,0.9102564102564102,0.1503043133103996,"[[12283   112]
+ [ 6422  1136]]"
+feats_sel_top10,"CatBoostClassifier(iterations=1000,silent=True,task_type=CPU,random_state=32)",0.3107033639143731,0.20352564102564102,0.6563307493540051,"[[18572   994]
+ [  133   254]]"
